@@ -16,4 +16,56 @@ li {
   vertical-align: baseline;
 }
 
-/* ADD CSS BELOW */
+body {
+  font-family: 'Bangers', cursive;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.section {
+  
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.col{
+  border: dashed 2px;
+  background-color: rgb(204, 202, 202); 
+  padding: 40px 20px 20px 20px;
+  margin: 40px;
+  border-color: grey;
+}
+
+.image {
+  max-height: 150px;
+  padding: 5px;
+  border-radius: 4px;
+  /*width: 100%;*/
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
